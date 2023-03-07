@@ -9352,6 +9352,7 @@ footer a:hover {
 }
 .feature-column {
   padding: 1em;
+  flex: 1;
 }
 .card {
   padding: 3.1em 1.25em;
@@ -9418,5 +9419,23 @@ footer a:hover {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     padding: 0 1em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contact-details {
+    display: block !important;
+    padding: 0;
+  }
+  .contact-details-row {
+    display: block !important;
+    padding: 0;
+  }
+  .feature-row {
+    flex-direction: column;
+  }
+  .contact-details-cell {
+    margin: 0 auto 75px;
+    text-align: center;
   }
 }
