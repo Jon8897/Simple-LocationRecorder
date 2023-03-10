@@ -500,8 +500,8 @@ pre code {
   margin-left: auto;
 }
 
-.nav-item-close {
-  display: grid;
+#nav-item-close {
+  display: none;
   width: 100%;
 }
 .close {

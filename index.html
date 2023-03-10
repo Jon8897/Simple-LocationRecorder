@@ -26,6 +26,7 @@
   <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css" />
   <link rel="stylesheet" href="vendors/aos/css/aos.css" />
   <link rel="stylesheet" href="css/style.min.css" />
+
 </head>
 <!--Body-->
 
@@ -36,7 +37,7 @@
       <div class="container">
         <div class="navbar-brand-wrapper d-flex w-100">
           <img src="images/ABSlogo.png" alt="" />
-          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+          <button class="navbar-toggler ml-auto" onclick="showCloseBtn()" type="button" data-toggle="collapse"
             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="mdi mdi-menu navbar-toggler-icon"></span>
@@ -63,8 +64,8 @@
             <li class="nav-item">
               <a class="nav-link" href="#feedback-section">Features</a>
             </li>
-            <li class="nav-item nav-item-close">
-              <button type="button" class="close" aria-label="Close" type="button" data-toggle="collapse"
+            <li class="nav-item" id="nav-item-close">
+              <button type="button" onclick="hideCloseBtn" class="close" aria-label="Close" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span aria-hidden="true">&times;</span>
