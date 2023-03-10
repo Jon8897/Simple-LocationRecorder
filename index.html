@@ -1,149 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!--Site Meta-->
-    <title>LocationRecorder</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <meta
-      name="keywords"
-      content="LocationRecorder, Location Recorder, location Recorder, locationrecorder, Sage50, Sage, Aston Berkeley"
-    />
-    <meta
-      name="description"
-      content="LocationRecorder gives the user the ability to record stock at multiple locations in Sage 50.
-      The user can create their own codes for each Sage 50 stock location covering bins, aisles, vehicles, warehouses and many more."
-    />
-    <!--Basic-->
-    <meta name="author" content="Aston Berkeley" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!--Owl Carousel-->
-    <link
-      rel="stylesheet"
-      href="vendors/owl-carousel/css/owl.carousel.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="vendors/owl-carousel/css/owl.theme.default.css"
-    />
-    <!-- Font Awesome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-    />
-    <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
-    <!--Styles-->
-    <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css" />
-    <link rel="stylesheet" href="vendors/aos/css/aos.css" />
-    <link rel="stylesheet" href="css/style.min.css" />
-  </head>
-  <!--Body-->
-  <body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
-    <!--Navbar-->
-    <header id="header-section">
-      <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
-        <div class="container">
-          <div class="navbar-brand-wrapper d-flex w-100">
-            <img src="images/ABSlogo.png" alt="" />
-            <button
-              class="navbar-toggler ml-auto"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="mdi mdi-menu navbar-toggler-icon"></span>
-            </button>
-          </div>
-          <div
-            class="collapse navbar-collapse navbar-menu-wrapper"
-            id="navbarSupportedContent"
-          >
-            <ul
-              class="navbar-nav align-items-lg-center align-items-start ml-auto"
-            >
-              <li
-                class="d-flex align-items-center justify-content-between pl-4 pl-lg-0"
-              >
-                <div class="navbar-collapse-logo">
-                  <img src="images/ABSlogo.png" alt="" />
-                </div>
-                <button
-                  class="navbar-toggler close-button"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
-                </button>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#header-section"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#digital-marketing-section">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#feedback-section">Features</a>
-              </li>
-              <!--<li class="nav-item">
+
+<head>
+  <!--Site Meta-->
+  <title>LocationRecorder</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+  <meta name="keywords"
+    content="LocationRecorder, Location Recorder, location Recorder, locationrecorder, Sage50, Sage, Aston Berkeley" />
+  <meta name="description"
+    content="LocationRecorder gives the user the ability to record stock at multiple locations in Sage 50.
+      The user can create their own codes for each Sage 50 stock location covering bins, aisles, vehicles, warehouses and many more." />
+  <!--Basic-->
+  <meta name="author" content="Aston Berkeley" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <!--Owl Carousel-->
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="vendors/owl-carousel/css/owl.theme.default.css" />
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <!--Styles-->
+  <link rel="stylesheet" href="vendors/mdi/css/materialdesignicons.min.css" />
+  <link rel="stylesheet" href="vendors/aos/css/aos.css" />
+  <link rel="stylesheet" href="css/style.min.css" />
+</head>
+<!--Body-->
+
+<body id="body" data-spy="scroll" data-target=".navbar" data-offset="100">
+  <!--Navbar-->
+  <header id="header-section">
+    <nav class="navbar navbar-expand-lg pl-3 pl-sm-0" id="navbar">
+      <div class="container">
+        <div class="navbar-brand-wrapper d-flex w-100">
+          <img src="images/ABSlogo.png" alt="" />
+          <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="mdi mdi-menu navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menu-wrapper" id="navbarSupportedContent">
+          <ul class="navbar-nav align-items-lg-center align-items-start ml-auto">
+            <li class="d-flex align-items-center justify-content-between pl-4 pl-lg-0">
+              <div class="navbar-collapse-logo">
+                <img src="images/ABSlogo.png" alt="" />
+              </div>
+              <button class="navbar-toggler close-button" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="mdi mdi-close navbar-toggler-icon pl-5"></span>
+              </button>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#header-section">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#digital-marketing-section">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feedback-section">Features</a>
+            </li>
+            <li class="nav-item nav-item-close">
+              <button type="button" class="close" aria-label="Close" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </li>
+            <!--<li class="nav-item">
                   Contact Us
               </li>-->
-            </ul>
-          </div>
+          </ul>
         </div>
-      </nav>
-    </header>
-    <!--End of Navbar-->
-
-    <!--Introduction-->
-    <div class="banner">
-      <div class="container">
-        <!--<h1 class="font-weight-semibold">
-        </h1>-->
-        <img src="images/locationRecorderLogo.jpg" alt="" class="img-fluid" />
       </div>
+    </nav>
+  </header>
+  <!--End of Navbar-->
+
+  <!--Introduction-->
+  <div class="banner">
+    <div class="container">
+      <!--<h1 class="font-weight-semibold">
+        </h1>-->
+      <img src="images/locationRecorderLogo.jpg" alt="" class="img-fluid" />
     </div>
-    <div class="content-wrapper">
-      <div class="container">
-        <!--Title-->
-        <section class="features-overview" id="features-section">
-          <div class="content-header">
-            <h2>
-              LocationRecorder For Sage 50c, <br />
-              Multiple Stock Locations For Sage 50c
-            </h2>
-            <h6 class="section-subtitle text-muted">
-              <br>
-                LocationRecorder provides a simple and efficient way to add multiple stock 
-                locations to Sage 50c. This gives increased functionality eliminating the need to 
-                migrate to larger system like Sage 200, saving thousands of pounds.
-            </h6>
-            <h6 class="section-subtitle text-muted">
-              <br>
-                Although LocationRecorder is fully integrated to Sage 50c it still allows 
-                Sage 50c updates to new versions. Sage stock continues to work as normal.
-            </h6>
-            <h6 class="section-subtitle text-muted">
-              <br>
-                The key to the system's success is simplicity; it can be easily added to existing 
-                Sage 50c systems or installed as new. Existing Sage users require no additional
-                training.
-            </h6>
-          </div>
-          <div class="d-md-flex justify-content-between">
+  </div>
+  <div class="content-wrapper">
+    <div class="container">
+      <!--Title-->
+      <section class="features-overview" id="features-section">
+        <div class="content-header">
+          <h2>
+            LocationRecorder For Sage 50c, <br />
+            Multiple Stock Locations For Sage 50c
+          </h2>
+          <h6 class="section-subtitle text-muted">
+            <br>
+            LocationRecorder provides a simple and efficient way to add multiple stock
+            locations to Sage 50c. This gives increased functionality eliminating the need to
+            migrate to larger system like Sage 200, saving thousands of pounds.
+          </h6>
+          <h6 class="section-subtitle text-muted">
+            <br>
+            Although LocationRecorder is fully integrated to Sage 50c it still allows
+            Sage 50c updates to new versions. Sage stock continues to work as normal.
+          </h6>
+          <h6 class="section-subtitle text-muted">
+            <br>
+            The key to the system's success is simplicity; it can be easily added to existing
+            Sage 50c systems or installed as new. Existing Sage users require no additional
+            training.
+          </h6>
+        </div>
+        <div class="d-md-flex justify-content-between">
 
           <!--Core Features-->
           <div class="content-wrapper">
@@ -157,36 +129,36 @@
                 </div>
               </div>
               <div class="core-feature-wrap">
-              <div class="item">
-                <div class="item-title">
-                  No need to create new stock codes 
+                <div class="item">
+                  <div class="item-title">
+                    No need to create new stock codes
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="item-title">
-                  Unlimited Locations uses your own location code 
+                <div class="item">
+                  <div class="item-title">
+                    Unlimited Locations uses your own location code
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="item-title">
-                  View actual and free stock at each location
+                <div class="item">
+                  <div class="item-title">
+                    View actual and free stock at each location
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="item-title">
-                  Transfer stock from one location to another 
+                <div class="item">
+                  <div class="item-title">
+                    Transfer stock from one location to another
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="item-title">
-                  Book Purchase Orders into default or specific location 
+                <div class="item">
+                  <div class="item-title">
+                    Book Purchase Orders into default or specific location
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="item-title">
-                  Assign location to Sales Order – automatically or manual 
+                <div class="item">
+                  <div class="item-title">
+                    Assign location to Sales Order – automatically or manual
+                  </div>
                 </div>
-              </div>
               </div>
             </div>
           </div>
@@ -195,62 +167,50 @@
           <!--Other Features section-->
           <!--End of Other Features-->
 
-          </div>
-        </section>
-        <!--End of introduction-->
+        </div>
+      </section>
+      <!--End of introduction-->
 
-        <!--Information-->
-        <section
-          class="digital-marketing-service"
-          id="digital-marketing-section"
-        >
-          <!--Menu Info-->
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+      <!--Information-->
+      <section class="digital-marketing-service" id="digital-marketing-section">
+        <!--Menu Info-->
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
-            <div id="wrap-img">
-            <img src="images/menuside.png" class="">
-            </div>
+              <div id="wrap-img">
+                <img src="images/menuside.png" class="">
+              </div>
               <h3 class="m-0">Main Menu</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Location Recorder is fully integrated to Sage 50c. 
+                  Location Recorder is fully integrated to Sage 50c.
                   Clicking on LocationRecorder on the Products and Services menu gives access to all the routines.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
               </div>
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationrecordermenu.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <!--End of menu info-->
+          <div data-aos="fade-left">
+            <img src="images/locationrecordermenu.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of menu info-->
 
-          <!--Location Maintenance Info-->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--Location Maintenance Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/locmainside.png" class="">
+                <img src="images/locmainside.png" class="">
               </div>
               <h3 class="m-0">Location Maintenance</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Location Maintenance allows you to create your own codes to identify the stock location. 
-                  This could be a warehouse code, engineers van or a combination of codes to show 
-                  warehouse and bin location. The number of locations is limitless. Defaults 
+                  Location Maintenance allows you to create your own codes to identify the stock location.
+                  This could be a warehouse code, engineers van or a combination of codes to show
+                  warehouse and bin location. The number of locations is limitless. Defaults
                   can be set to automatically select the locations for Purchase and Sales Orders.
                   Unlike other products there is no need to alter product codes, the location code
                   is a separate code.
@@ -258,547 +218,453 @@
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
               </div>
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationmaintence.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <!--End of location Maintenance Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationmaintence.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of location Maintenance Info-->
 
-          <!--in Info-->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--in Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/in-side.png" class="">
+                <img src="images/in-side.png" class="">
               </div>
               <h3 class="m-0">In</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  In allows you to make adjustments into stock. This can be used instead of P.O.P.  
-                  Multiple entries can be made quickly and saved on mass.  
+                  In allows you to make adjustments into stock. This can be used instead of P.O.P.
+                  Multiple entries can be made quickly and saved on mass.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-                </div>
               </div>
             </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationrecorderin.png" alt="" class="img-fluid" />
-            </div>
           </div>
-          <!--End of in Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationrecorderin.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of in Info-->
 
-          <!--out Info-->
-          <br>
-           <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--out Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/out-side.png" class="">
+                <img src="images/out-side.png" class="">
               </div>
               <h3 class="m-0">Out</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Used for adjustments out. Only stock at a specific location is shown. 
+                  Used for adjustments out. Only stock at a specific location is shown.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-                </div>
               </div>
             </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationrecorderout.png" alt="" class="img-fluid" />
-            </div>
           </div>
-          <!--End of out Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationrecorderout.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of out Info-->
 
-          <!--Transfer Info-->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--Transfer Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/transferside.png" class="">
+                <img src="images/transferside.png" class="">
               </div>
               <h3 class="m-0">Transfer</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Transfer, allows to move products from one location to another. 
-                  Location from and to are validated from drop down options.                 
+                  Transfer, allows to move products from one location to another.
+                  Location from and to are validated from drop down options.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-                </div>
               </div>
             </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationrecordertransfer.png" alt="" class="img-fluid" />
-            </div>
           </div>
-          <!--End of transfer Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationrecordertransfer.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of transfer Info-->
 
-          <!--Location List Info-->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--Location List Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/locationlistside.png" class="">
+                <img src="images/locationlistside.png" class="">
               </div>
               <h3 class="m-0">Location List </h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Provides a full stock enquiry showing products by location. 
-                  Individual products or a full list can be selected. 
-                  The search allows individual locations to be selected or 
-                  stock received from a specific date.                 
+                  Provides a full stock enquiry showing products by location.
+                  Individual products or a full list can be selected.
+                  The search allows individual locations to be selected or
+                  stock received from a specific date.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-                </div>
               </div>
             </div>
-            <!--<div
+          </div>
+          <!--<div
 
               data-aos="fade-left"
             >
               <img src="images/locationproductlist.png" alt="" class="img-fluid" />
             </div>-->
-          </div>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
-              <div class="info-para">
-                <p class="py-4 m-0 text-muted">
-                  <br>Ticking Total by Product shows the total product stock in all locations or each location can be selected showing all products 
-                  within that location. Clicking on Excel outputs the data automatically to Excel for hard copy reports.                 
-                </p>
-                <!--<p class="font-weight-medium text-muted"> 
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <div class="info-para">
+              <p class="py-4 m-0 text-muted">
+                <br>Ticking Total by Product shows the total product stock in all locations or each location can be
+                selected showing all products
+                within that location. Clicking on Excel outputs the data automatically to Excel for hard copy reports.
+              </p>
+              <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationtickbyproduct.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <!--End of Location List Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationtickbyproduct.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of Location List Info-->
 
-          <!--Location Transactions Info-->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--Location Transactions Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/loctransside.png" class="">
+                <img src="images/loctransside.png" class="">
               </div>
               <h3 class="m-0">Location Transactions</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Location Transactions gives a full audit trail of all stock movements. 
-                  Several search options are available to filter transactions.                 
-                </p>
-                <!--<p class="font-weight-medium text-muted"> 
-                </p>-->
-                </div>
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationtransactionsdropdown.png" alt="" class="img-fluid" />
-            </div>
-
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationtransactionsorders.png" alt="" class="img-fluid" style="
-              padding-top: 21px;" />
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
-              <div class="info-para">
-                <p class="py-4 m-0 text-muted">
-                  <br>Drilldowns are available on Product, Ref, Account No or Name. This allows you to drill into the Purchase and Sales Orders. 
-                  The Orders are automatically opened within Sage.            
+                  Location Transactions gives a full audit trail of all stock movements.
+                  Several search options are available to filter transactions.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
               </div>
             </div>
-            <div
+          </div>
+          <div data-aos="fade-left">
+            <img src="images/locationtransactionsdropdown.png" alt="" class="img-fluid" />
+          </div>
 
-              data-aos="fade-left"
-            >
-              <img src="images/locationtransactiondrilldown.png" alt="" class="img-fluid" />
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationtransactiondrilldown2.png" alt="" class="img-fluid" style="
+          <div data-aos="fade-left">
+            <img src="images/locationtransactionsorders.png" alt="" class="img-fluid" style="
               padding-top: 21px;" />
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <div class="info-para">
+              <p class="py-4 m-0 text-muted">
+                <br>Drilldowns are available on Product, Ref, Account No or Name. This allows you to drill into the
+                Purchase and Sales Orders.
+                The Orders are automatically opened within Sage.
+              </p>
+              <!--<p class="font-weight-medium text-muted"> 
+                </p>-->
             </div>
           </div>
-          <!--End of Location Transactions Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationtransactiondrilldown.png" alt="" class="img-fluid" />
+          </div>
+          <div data-aos="fade-left">
+            <img src="images/locationtransactiondrilldown2.png" alt="" class="img-fluid" style="
+              padding-top: 21px;" />
+          </div>
+        </div>
+        <!--End of Location Transactions Info-->
 
-          <!--BOM Transfer Info-->
-          <br>
-           <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--BOM Transfer Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/bomtransside.png" class="">
+                <img src="images/bomtransside.png" class="">
               </div>
               <h3 class="m-0">BOM Transfer</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  BOM Transfer, moves component stock to a finished assembly. This is controlled by the standard Sage Bill of Materials.
-                  A default location can be created for the finished stock or selected manually. A default location can be set for the components, 
-                  or the system will automatically allocate locations based on availability, alternatively each component location can be allocated manually. 
+                  BOM Transfer, moves component stock to a finished assembly. This is controlled by the standard Sage
+                  Bill of Materials.
+                  A default location can be created for the finished stock or selected manually. A default location can
+                  be set for the components,
+                  or the system will automatically allocate locations based on availability, alternatively each
+                  component location can be allocated manually.
                   A trial build can be performed to check component availability.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-                </div>
               </div>
             </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationbomtransfer.png" alt="" class="img-fluid" />
-            </div>
           </div>
-          <!--End of BOM transfer Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationbomtransfer.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of BOM transfer Info-->
 
-          <!--Check BOM Info-->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--Check BOM Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/MRPbomside.png" class="">
+                <img src="images/MRPbomside.png" class="">
               </div>
               <h3 class="m-0">MRP BOM</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  MRP BOM, provides a more controlled environment for component stock. 
-                  Only component stock which is in an area specifically set as an MRP area is 
-                  available for the BOM. This is useful if you wish to retain components as spare items 
+                  MRP BOM, provides a more controlled environment for component stock.
+                  Only component stock which is in an area specifically set as an MRP area is
+                  available for the BOM. This is useful if you wish to retain components as spare items
                   rather than to use them within an assembly.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-                </div>
               </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationcheckbom.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <!--End of Check BOM Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationcheckbom.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of Check BOM Info-->
 
-          <!--Purchase Order Processing Info-->
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
-              <h3 class="m-0"><br>Purchase Order Processing</h3>
-              <div class="info-para">
-                <p class="py-4 m-0 text-muted">
-                  LocationRecorder fully integrates with P.O.P. allowing stock to be booked into specific locations via our GRN routine.
-                  If P.O.P. is not being used, the In routine from the main menu within Products and services can be used. 
-                </p>
-                <!--<p class="font-weight-medium text-muted"> 
+        <!--Purchase Order Processing Info-->
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <h3 class="m-0"><br>Purchase Order Processing</h3>
+            <div class="info-para">
+              <p class="py-4 m-0 text-muted">
+                LocationRecorder fully integrates with P.O.P. allowing stock to be booked into specific locations via
+                our GRN routine.
+                If P.O.P. is not being used, the In routine from the main menu within Products and services can be used.
+              </p>
+              <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-              </div>
-              <div
-
-              data-aos="fade-left"
-            >
+            </div>
+            <div data-aos="fade-left">
               <img src="images/locationpurchaseordering.png" alt="" class="img-fluid" />
             </div>
-            </div>
           </div>
-          <!--End of Purchase Order Processing Info-->
+        </div>
+        <!--End of Purchase Order Processing Info-->
 
-          <!--GRN Info-->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            ><div id="wrap-container">
+        <!--GRN Info-->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/grnside.png" class="">
+                <img src="images/grnside.png" class="">
               </div>
               <h3 class="m-0">GRN</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Selecting a Purchase Order with a status of ON-ORDER displays the full order details and allows the goods 
-                  to be booked into the default or specific location. The order line can be split and booked into multiple locations. 
-                  Sage Delivered status is updated by this routine.The original purchase order can be drilled into from the 
-                  Location Trans enquiry screen.                  
-                </p>
-                <!--<p class="font-weight-medium text-muted"> 
-                </p>-->
-                </div>
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/popgrn.png" alt="" class="img-fluid" />
-            </div>
-          </div>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
-              <div class="info-para">
-                <p class="py-4 m-0 text-muted">
-                  <br>In addition to the GRN routine booking stock into the LocationRecorder database Sage stock is also updated and the location shown on the Activity.                  
+                  Selecting a Purchase Order with a status of ON-ORDER displays the full order details and allows the
+                  goods
+                  to be booked into the default or specific location. The order line can be split and booked into
+                  multiple locations.
+                  Sage Delivered status is updated by this routine.The original purchase order can be drilled into from
+                  the
+                  Location Trans enquiry screen.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
               </div>
             </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/grnactivity.png" alt="" class="img-fluid" />
-            </div>
           </div>
-          <!--End of GRN Info-->
-
-          <!--Sales Order Processing -->
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
-              <h3 class="m-0"><br>Sales Order Processing</h3>
-              <div class="info-para">
-                <p class="py-4 m-0 text-muted">
-                  LocationRecorder fully integrates with S.O.P. allowing stock to be allocated and 
-                  picked from specific locations. The allocation process is accessed within Sage50c.
-                </p>
-                <!--<p class="font-weight-medium text-muted"> 
+          <div data-aos="fade-left">
+            <img src="images/popgrn.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <div class="info-para">
+              <p class="py-4 m-0 text-muted">
+                <br>In addition to the GRN routine booking stock into the LocationRecorder database Sage stock is also
+                updated and the location shown on the Activity.
+              </p>
+              <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationsopmenu.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <!--End of Sales Order Processing  Info-->
+          <div data-aos="fade-left">
+            <img src="images/grnactivity.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of GRN Info-->
 
-          <!--Location Allocate Processing -->
-          <br>
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <!--Sales Order Processing -->
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <h3 class="m-0"><br>Sales Order Processing</h3>
+            <div class="info-para">
+              <p class="py-4 m-0 text-muted">
+                LocationRecorder fully integrates with S.O.P. allowing stock to be allocated and
+                picked from specific locations. The allocation process is accessed within Sage50c.
+              </p>
+              <!--<p class="font-weight-medium text-muted"> 
+                </p>-->
+            </div>
+          </div>
+          <div data-aos="fade-left">
+            <img src="images/locationsopmenu.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+        <!--End of Sales Order Processing  Info-->
+
+        <!--Location Allocate Processing -->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/locallside.png" class="">
+                <img src="images/locallside.png" class="">
               </div>
               <h3 class="m-0">Location Allocate</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Stock held at all locations is shown within the Sales Order for allocation. This can be 
-                  automatic based on a default location or manually choosing which location you wish to 
-                  pick from. Stock can be picked from multiple locations.   
-                </p>
-                <!--<p class="font-weight-medium text-muted"> 
-                </p>-->
-                </div>
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationcopallocation.png" alt="" class="img-fluid" />
-            </div>
-          </div>
-
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
-              <div class="info-para">
-                <p class="py-4 m-0 text-muted">
-                  <br>The Pick List option outputs information to Excel to provide a Pick Sheet for the warehouse.   
-                </p>
-                <!--<p class="font-weight-medium text-muted"> 
-                </p>-->
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationpickinglist.png" alt="" class="img-fluid" />
-            </div>
-          </div>
-
-          <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
-              <div class="info-para">
-                <p class="py-4 m-0 text-muted">
-                  Allocations can be changed or partial dispatches made.
+                  Stock held at all locations is shown within the Sales Order for allocation. This can be
+                  automatic based on a default location or manually choosing which location you wish to
+                  pick from. Stock can be picked from multiple locations.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
               </div>
             </div>
           </div>
-          <!--End of Location Allocate  Info-->
+          <div data-aos="fade-left">
+            <img src="images/locationcopallocation.png" alt="" class="img-fluid" />
+          </div>
+        </div>
 
-          <!--Sales Order Processing -->
-          <br>
-           <div class="row align-items-center">
-            <div
-              class="col-12 grid-margin grid-margin-lg-0"
-              data-aos="fade-right"
-            >
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <div class="info-para">
+              <p class="py-4 m-0 text-muted">
+                <br>The Pick List option outputs information to Excel to provide a Pick Sheet for the warehouse.
+              </p>
+              <!--<p class="font-weight-medium text-muted"> 
+                </p>-->
+            </div>
+          </div>
+          <div data-aos="fade-left">
+            <img src="images/locationpickinglist.png" alt="" class="img-fluid" />
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
+            <div class="info-para">
+              <p class="py-4 m-0 text-muted">
+                Allocations can be changed or partial dispatches made.
+              </p>
+              <!--<p class="font-weight-medium text-muted"> 
+                </p>-->
+            </div>
+          </div>
+        </div>
+        <!--End of Location Allocate  Info-->
+
+        <!--Sales Order Processing -->
+        <br>
+        <div class="row align-items-center">
+          <div class="col-12 grid-margin grid-margin-lg-0" data-aos="fade-right">
             <div id="wrap-container">
               <div id="wrap-img">
-              <img src="images/locdesside.png" class="">
+                <img src="images/locdesside.png" class="">
               </div>
               <h3 class="m-0">Location Despatch</h3>
               <div class="info-para">
                 <p class="py-4 m-0 text-muted">
-                  Once the allocation has been confirmed by the warehouse the Pick is confirmed. 
+                  Once the allocation has been confirmed by the warehouse the Pick is confirmed.
                   This is done by simply clicking on Confirm Pick.
                 </p>
                 <!--<p class="font-weight-medium text-muted"> 
                 </p>-->
               </div>
-              </div>
-            </div>
-            <div
-
-              data-aos="fade-left"
-            >
-              <img src="images/locationdespatch.png" alt="" class="img-fluid" />
             </div>
           </div>
-          <!--End of Sales Order Processing  Info-->
-
-        </section>
-        <!--End of Information-->
-
-        <!--Features-->
-        <section class="feadback-abs" id="feedback-section">
-          <div class="feature-row">
-            <h1 class="feature-title">Features</h1>
+          <div data-aos="fade-left">
+            <img src="images/locationdespatch.png" alt="" class="img-fluid" />
           </div>
-          <div class="feature-row">
+        </div>
+        <!--End of Sales Order Processing  Info-->
 
-            <!-- Column One -->
-            <div class="feature-column">
-              <div class="card">
-                <div class="icon">
-                  <i class="fa-solid fa-magnifying-glass-location"></i>
-                </div>
-                <h3 class="feature-h3"></h3>
-                <p class="feature-p">
-                  Record multiple locations                
-                </p>
-              </div>
-            </div>
+      </section>
+      <!--End of Information-->
 
-            <!-- Column Two -->
-            <div class="feature-column">
-              <div class="card">
-                <div class="icon">
-                  <i class="fa-solid fa-boxes-stacked"></i>
-                </div>
-                <h3 class="feature-h3"></h3>
-                <p class="feature-p">
-                  View stock levels
-                  at each location
-                </p>
-              </div>
-            </div>
+      <!--Features-->
+      <section class="feadback-abs" id="feedback-section">
+        <div class="feature-row">
+          <h1 class="feature-title">Features</h1>
+        </div>
+        <div class="feature-row">
 
-            <!-- Column Three -->
-            <div class="feature-column">
-              <div class="card">
-                <div class="icon">
-                  <i class="fa-solid fa-location-pin-lock"></i>
-                </div>
-                <h3 class="feature-h3"></h3>
-                <p class="feature-p">
-                  Assign location
-                  to Sales Orders
-                </p>
+          <!-- Column One -->
+          <div class="feature-column">
+            <div class="card">
+              <div class="icon">
+                <i class="fa-solid fa-magnifying-glass-location"></i>
               </div>
+              <h3 class="feature-h3"></h3>
+              <p class="feature-p">
+                Record multiple locations
+              </p>
             </div>
+          </div>
+
+          <!-- Column Two -->
+          <div class="feature-column">
+            <div class="card">
+              <div class="icon">
+                <i class="fa-solid fa-boxes-stacked"></i>
+              </div>
+              <h3 class="feature-h3"></h3>
+              <p class="feature-p">
+                View stock levels
+                at each location
+              </p>
+            </div>
+          </div>
+
+          <!-- Column Three -->
+          <div class="feature-column">
+            <div class="card">
+              <div class="icon">
+                <i class="fa-solid fa-location-pin-lock"></i>
+              </div>
+              <h3 class="feature-h3"></h3>
+              <p class="feature-p">
+                Assign location
+                to Sales Orders
+              </p>
+            </div>
+          </div>
         </div>
 
         <!-- <section class="feadback-abs" id="feedback-section">
@@ -806,8 +672,8 @@
           </div>
           <div class="feature-row"> -->
 
-            <!-- Column Four -->
-            <!-- <div class="feature-column">
+        <!-- Column Four -->
+        <!-- <div class="feature-column">
               <div class="card">
                 <div class="icon">
                   <i class="fa-solid fa-arrow-right-arrow-left"></i>
@@ -820,8 +686,8 @@
               </div>
             </div> -->
 
-            <!-- Column Five -->
-            <!-- <div class="feature-column">
+        <!-- Column Five -->
+        <!-- <div class="feature-column">
               <div class="card">
                 <div class="icon">
                   <i class="fa-solid fa-computer"></i>
@@ -835,8 +701,8 @@
               </div>
             </div> -->
 
-            <!-- Column Six -->
-            <!-- <div class="feature-column">
+        <!-- Column Six -->
+        <!-- <div class="feature-column">
               <div class="card">
                 <div class="icon">
                   <i class="fa-solid fa-s"></i>
@@ -857,7 +723,7 @@
 
         <!--Customer feedback-->
         <!--End of Customer Feedback-->
-        
+
         <!--Arrange a demo-->
         <section class="contact-us" id="contact-section">
           <div class="contact-us-bgimage grid-margin">
@@ -872,10 +738,10 @@
               </h6>
             </div>
             <div data-aos="fade-up">
-              <a href="mailto:sales@astonberkeley.com"!important>
-              <button class="btn btn-rounded btn-outline-danger">
-                Contact us
-              </button>
+              <a href="mailto:sales@astonberkeley.com" !important>
+                <button class="btn btn-rounded btn-outline-danger">
+                  Contact us
+                </button>
               </a>
             </div>
           </div>
@@ -889,8 +755,9 @@
             <div class="contact-details-cell col-12 col-md-6 col-lg-3 grid-margin">
               <img src="images/ABSlogo.png" alt="" class="pb-2" />
               <div class="pt-2">
-                <p class="text-muted m-0"><a href="mailto:sales@astonberkeley.com"!important>sales@astonberkeley.com</a></p>
-                <p class="text-muted m-0"><a href="tel:01925751100"!important>01925 751100</a></p>
+                <p class="text-muted m-0"><a href="mailto:sales@astonberkeley.com"
+                    !important>sales@astonberkeley.com</a></p>
+                <p class="text-muted m-0"><a href="tel:01925751100" !important>01925 751100</a></p>
               </div>
             </div>
             <!--End of contact info-->
@@ -899,25 +766,29 @@
             <div class="contact-details-cell col-12 col-md-6 col-lg-3 grid-margin">
               <h5 class="pb-2">Get in Touch</h5>
               <p class="text-muted">Arrange your demo!</p>
-              
+
               <!--<form>
               </form>-->
 
               <div class="pt-3">
-                <a href="tel:01925751100"!important>
-                <button class="btn btn-dark">
-                  Call Us
-                </button>
+                <a href="tel:01925751100" !important>
+                  <button class="btn btn-dark">
+                    Call Us
+                  </button>
                 </a>
               </div>
               <!--End of Newsletter-->
 
-            <!--Useful Links-->
+              <!--Useful Links-->
             </div>
             <div class="contact-details-cell col-12 col-md-6 col-lg-3 grid-margin">
               <h5 class="pb-2">Useful links</h5>
-              <a href="https://www.astonberkeley.com/" target="_blank"><p class="m-0 pb-2">Aston Berkeley</p></a>
-              <a href="https://www.batchrecorder.com/" target="_blank"><p class="m-0 pt-1 pb-2">BatchRecorder</p></a>
+              <a href="https://www.astonberkeley.com/" target="_blank">
+                <p class="m-0 pb-2">Aston Berkeley</p>
+              </a>
+              <a href="https://www.batchrecorder.com/" target="_blank">
+                <p class="m-0 pt-1 pb-2">BatchRecorder</p>
+              </a>
             </div>
             <!--Useful Links-->
 
@@ -928,12 +799,12 @@
                 Berkeley House <br />Whitbarrow Road Lymm<br />Warrington WA13
                 9AR
               </p>
-              <div
-                class="justify-content-center justify-content-md-start"
-              >
-                <a href="https://www.facebook.com/aston.berkeley.7/" target="_blank"><span class="mdi mdi-facebook"></span></a>
+              <div class="justify-content-center justify-content-md-start">
+                <a href="https://www.facebook.com/aston.berkeley.7/" target="_blank"><span
+                    class="mdi mdi-facebook"></span></a>
                 <a href="https://twitter.com/aston_berkeley" target="_blank"><span class="mdi mdi-twitter"></span></a>
-                <a href="https://www.linkedin.com/company/aston-berkeley-systems-ltd/?_l=en_US" target="_blank"><span class="mdi mdi-linkedin"></span></a>
+                <a href="https://www.linkedin.com/company/aston-berkeley-systems-ltd/?_l=en_US" target="_blank"><span
+                    class="mdi mdi-linkedin"></span></a>
               </div>
               <!--End of address/ socials-->
             </div>
@@ -943,12 +814,9 @@
 
         <!--Copyright-->
         <footer class="border-top">
-          <p class="text-center text-muted pt-4">
-            Copyright © 2023<a
-              href="https://www.astonberkeley.com/"
-              class="px-1"
-              >Aston Berekeley.</a
-            >All rights reserved.
+          <p class="text-center text-muted pt-6">
+            Copyright © 2023<a href="https://www.astonberkeley.com/" class="px-1">Aston Berekeley.</a>All rights
+            reserved.
           </p>
         </footer>
         <!--End of copyright-->
@@ -956,14 +824,15 @@
         <!-- Modal for Contact - us Button -->
         <!-- End of Model for Contact - us Button -->
 
-    <!--Scripts-->
-    <script src="vendors/jquery/jquery.min.js"></script>
-    <script src="vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="vendors/aos/js/aos.js"></script>
-    <script src="js/landingpage.js"></script>
-    <script src="js/button.js"></script>
-    <!--End Script-->
-  </body>
-  <!--End Body-->
+        <!--Scripts-->
+        <script src="vendors/jquery/jquery.min.js"></script>
+        <script src="vendors/bootstrap/bootstrap.min.js"></script>
+        <script src="vendors/owl-carousel/js/owl.carousel.min.js"></script>
+        <script src="vendors/aos/js/aos.js"></script>
+        <script src="js/landingpage.js"></script>
+        <script src="js/button.js"></script>
+        <!--End Script-->
+</body>
+<!--End Body-->
+
 </html>

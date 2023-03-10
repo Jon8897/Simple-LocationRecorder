@@ -500,6 +500,17 @@ pre code {
   margin-left: auto;
 }
 
+.nav-item-close {
+  display: grid;
+  width: 100%;
+}
+.close {
+  font-size: 2.5em !important;
+  font-weight: 500 !important;
+}
+.pt-6 {
+  padding-top: 1em !important;
+}
 /*#wrap-container{
 
 }*/
